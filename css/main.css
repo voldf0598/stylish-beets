@@ -14,7 +14,23 @@ figure p {
   font-family: PT Serif;
 }
 
+main p:first-child{
+  font-size: 1.125rem;
+}
+
 main q {
   font-family: PT serif;
   font-size: 1.5rem;
+}
+
+blockquote {
+  font-size: 0.8rem;
+}
+
+h2 {
+  color: #8f2440;
+}
+
+h3 {
+  color: #8f2440;
 }
