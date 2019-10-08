@@ -4,10 +4,12 @@ html {
 
 h1 {
   color: #3f1622;
+  font-family: PT Sans;
 }
 
 nav ol {
   color: #8f2440;
+  font-family: PT Sans;
 }
 
 figure p {
@@ -16,21 +18,26 @@ figure p {
 
 main p:first-child{
   font-size: 1.125rem;
+  font-family: PT Sans;
 }
 
 main q {
   font-family: PT serif;
   font-size: 1.5rem;
+  line-height: 1.5;
 }
 
 blockquote {
+  line-height: 1.5;
   font-size: 0.8rem;
 }
 
 h2 {
   color: #8f2440;
+  font-family: PT Sans;
 }
 
 h3 {
   color: #8f2440;
+  font-family: PT Sans;
 }
