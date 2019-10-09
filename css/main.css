@@ -18,7 +18,11 @@ h1 {
   font-family: "PT Sans", sans-serif;
 }
 
-a:hover {
+nav ol {
+  list-style-type: none;
+}
+
+nav a:hover {
   color: #8f2440;
   text-decoration: none;
 }
@@ -29,7 +33,7 @@ figcaption p {
   text-align: center;
 }
 
-aside p:first-child {
+main p:first-child {
   font-family: "PT Serif", serif;
 }
 
@@ -44,14 +48,15 @@ blockquote {
 }
 
 h2 {
-  color: #8f2440;
+  color: #3f1622;
   font-family: "PT Sans", sans-serif;
   list-style-type: lower-greek;
   font-weight: normal;
+  font-size: 1.5rem;
 }
 
 h3 {
-  color: #8f2440;
+  color: #3f1622;
   font-family: "PT Sans", sans-serif;
 }
 
@@ -60,7 +65,8 @@ dl > dt {
 }
 
 h4 {
-  color: #8f2440;
+  color: #3f1622;
   font-family: "PT Sans", sans-serif;
   list-style-type: circle;
+  font-size: 1.5rem;
 }
