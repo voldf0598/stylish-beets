@@ -35,13 +35,8 @@ figcaption p {
   text-align: center;
 }
 
-main q {
+main q:last-child {
   font-family: "PT Serif", serif;
-}
-
-aside p:last-child {
-  font-family: "PT Serif", serif;
-  line-height: 1.5;
 }
 
 blockquote {
@@ -62,7 +57,7 @@ h3 {
   font-family: "PT Sans", sans-serif;
 }
 
-dl > dt {
+aside dt {
   font-family: "PT Serif", serif;
 }
 
