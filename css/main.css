@@ -17,16 +17,21 @@ h1 {
 .nav {
   color: #8f2440;
   font-family: "PT Sans", sans-serif;
+  font-weight: bold;
 }
 
-nav ol li {
+nav ol {
   list-style-type: none;
-  text-decoration: none;
 }
 
-a:hover {
+nav a {
   color: #8f2440;
   text-decoration: none;
+}
+
+nav a:hover {
+  color: #222;
+  text-decoration: underline;
 }
 
 figcaption p {
@@ -55,6 +60,8 @@ h2 {
 h3 {
   color: #3f1622;
   font-family: "PT Sans", sans-serif;
+  font-size: 1.5rem;
+  font-weight: normal;
 }
 
 aside dt {
@@ -66,4 +73,5 @@ h4 {
   font-family: "PT Sans", sans-serif;
   list-style-type: circle;
   font-size: 1.5rem;
+  font-weight: normal;
 }
