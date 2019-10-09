@@ -29,14 +29,13 @@ figcaption p {
   text-align: center;
 }
 
-main aside p:first-child {
-  font-size: 1.5rem;
+aside p:first-child {
   font-family: "PT Serif", serif;
+  font-size: size 1.5rem;
 }
 
-main aside p:last-child {
+aside p:last-child {
   font-family: "PT Serif", serif;
-  font-size: 1.5rem;
   line-height: 1.5;
 }
 
@@ -49,6 +48,7 @@ h2 {
   color: #8f2440;
   font-family: "PT Sans", sans-serif;
   list-style-type: lower-greek;
+  font-weight: normal;
 }
 
 h3 {
