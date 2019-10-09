@@ -2,53 +2,59 @@ html {
   background-color: #c9b5ab;
 }
 
-h1 {
-  border-color: #3f1622;
-  font-family: PT+sans-serif, Sans;
+img {
+  width: 100%;
 }
 
-nav ol {
+h1 {
+  border-color: #3f1622;
+  font-family: "PT Sans", sans-serif;
+}
+
+nav ol: hover {
   color: #8f2440;
-  font-family: PT+sans-serif, Sans;
+  font-family: "PT Sans", sans-serif;
 }
 
 figcaption p {
-  font-family: PT Serif;
+  font-family: "PT Serif", serif;
+  font-style: italic;
+  text-align: center;
 }
 
-main aside p:first-child{
+main aside p:first-child {
   font-size: 1.125rem;
-  font-family: PT Sans;
+  font-family: "PT Sans", sans-serif;
 }
 
 main p:last-child {
-  font-family: PT serif;
+  font-family: "PT Serif", serif;
   font-size: 1.5rem;
   line-height: 1.5;
 }
 
 blockquote {
   line-height: 1.5;
-  font-size: 0.8rem;
+  font-size: .8rem;
 }
 
 h2 {
   color: #8f2440;
-  font-family: PT Sans;
+  font-family: "PT Sans", sans-serif;
   list-style-type: lower-greek;
 }
 
 h3 {
   color: #8f2440;
-  font-family: PT Sans;
+  font-family: "PT Sans", sans-serif;
 }
 
 dl > dt {
-  font-family: PT Serif;
+  font-family: "PT Serif", serif;
 }
 
 h4 {
   color: #8f2440;
-  font-family: PT Sans;
+  font-family: "PT Sans", sans-serif;
   list-style-type: circle;
 }
