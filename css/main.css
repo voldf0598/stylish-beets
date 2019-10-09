@@ -31,7 +31,6 @@ figcaption p {
 
 aside p:first-child {
   font-family: "PT Serif", serif;
-  font-size: size 1.5rem;
 }
 
 aside p:last-child {
