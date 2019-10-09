@@ -3,25 +3,25 @@ html {
 }
 
 h1 {
-  color: #3f1622;
-  font-family: PT Sans;
+  border-color: #3f1622;
+  font-family: PT+sans-serif, Sans;
 }
 
 nav ol {
   color: #8f2440;
-  font-family: PT Sans;
+  font-family: PT+sans-serif, Sans;
 }
 
-figure p {
+figcaption p {
   font-family: PT Serif;
 }
 
-main p:first-child{
+main aside p:first-child{
   font-size: 1.125rem;
   font-family: PT Sans;
 }
 
-main q {
+main p:last-child {
   font-family: PT serif;
   font-size: 1.5rem;
   line-height: 1.5;
@@ -43,8 +43,8 @@ h3 {
   font-family: PT Sans;
 }
 
-dl dt {
-  font-style: PT Serif;
+dl > dt {
+  font-family: PT Serif;
 }
 
 h4 {
