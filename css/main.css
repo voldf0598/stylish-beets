@@ -12,6 +12,7 @@ h1 {
   font-family: "PT Sans", sans-serif;
   font-weight: bold;
   font-size: 1.5rem;
+  line-height: 1.6;
 }
 
 .nav {
@@ -19,18 +20,19 @@ h1 {
   font-family: "PT Sans", sans-serif;
   font-weight: bold;
   font-size: 1.125rem;
+  line-height: 1.7rem;
 }
 
 nav ol {
   list-style-type: none;
 }
 
-nav a {
+a {
   color: #8f2440;
   text-decoration: none;
 }
 
-nav a:hover {
+a:hover {
   color: #222;
   text-decoration: underline;
 }
@@ -39,10 +41,14 @@ figcaption p {
   font-family: "PT Serif", serif;
   font-style: italic;
   text-align: center;
+  line-height: .11;
+  font-size: .9rem;
 }
 
-main p:first-child {
-  font-size: 1.5rem;
+.first-line {
+  font-weight: bold;
+  line-height: 1.5;
+  font-size: 1.3rem;
 }
 
 main q:last-child {
@@ -51,26 +57,39 @@ main q:last-child {
 
 blockquote {
   line-height: 1.5;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+cite {
   font-size: .8rem;
 }
 
 h2 {
   color: #3f1622;
   font-family: "PT Sans", sans-serif;
-  list-style-type: lower-greek;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 1.5rem;
+}
+
+ol {
+  list-style-type: lower-greek;
 }
 
 h3 {
   color: #3f1622;
   font-family: "PT Sans", sans-serif;
   font-size: 1.5rem;
-  font-weight: normal;
+  font-weight: bold;
 }
 
-aside dt {
+.serving {
+  font-style: italic;
+}
+
+dt {
   font-family: "PT Serif", serif;
+  font-weight: bold;
 }
 
 h4 {
@@ -78,5 +97,5 @@ h4 {
   font-family: "PT Sans", sans-serif;
   list-style-type: circle;
   font-size: 1.5rem;
-  font-weight: normal;
+  font-weight: bold;
 }
