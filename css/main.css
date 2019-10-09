@@ -1,6 +1,5 @@
 html {
   background-color: #c9b5ab;
-  text-decoration: none;
 }
 
 img {
@@ -10,13 +9,18 @@ img {
 h1 {
   color: #3f1622;
   font-family: "PT Sans", sans-serif;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 1.5rem;
 }
 
-.nav a:hover {
+.nav {
   color: #8f2440;
   font-family: "PT Sans", sans-serif;
+}
+
+a:hover {
+  color: #8f2440;
+  text-decoration: none;
 }
 
 figcaption p {
@@ -26,11 +30,11 @@ figcaption p {
 }
 
 main aside p:first-child {
-  font-size: 1.125rem;
-  font-family: "PT Sans", sans-serif;
+  font-size: 1.5rem;
+  font-family: "PT Serif", serif;
 }
 
-main p:last-child {
+main aside p:last-child {
   font-family: "PT Serif", serif;
   font-size: 1.5rem;
   line-height: 1.5;
