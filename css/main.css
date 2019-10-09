@@ -35,9 +35,20 @@ blockquote {
 h2 {
   color: #8f2440;
   font-family: PT Sans;
+  list-style-type: lower-greek;
 }
 
 h3 {
   color: #8f2440;
   font-family: PT Sans;
+}
+
+dl dt {
+  font-style: PT Serif;
+}
+
+h4 {
+  color: #8f2440;
+  font-family: PT Sans;
+  list-style-type: circle;
 }
