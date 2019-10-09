@@ -1,5 +1,6 @@
 html {
   background-color: #c9b5ab;
+  text-decoration: none;
 }
 
 img {
@@ -9,7 +10,8 @@ img {
 h1 {
   color: #3f1622;
   font-family: "PT Sans", sans-serif;
-  font size: 1.5rem
+  font-weight: normal;
+  font-size: 1.5rem;
 }
 
 .nav a:hover {
