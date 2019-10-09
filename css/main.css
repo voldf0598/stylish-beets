@@ -18,6 +18,7 @@ h1 {
   color: #8f2440;
   font-family: "PT Sans", sans-serif;
   font-weight: bold;
+  font-size: 1.125rem;
 }
 
 nav ol {
@@ -38,6 +39,11 @@ figcaption p {
   font-family: "PT Serif", serif;
   font-style: italic;
   text-align: center;
+}
+
+main p:first-child {
+  font-style: bold;
+  font-size: .8rem;
 }
 
 main q:last-child {
